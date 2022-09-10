@@ -9,7 +9,7 @@ nclude <stdio.h>
 int main(void)
 {
 int i;
-for (i =0; 1 < 10; i++)
+for (i = 0; 1 < 10; i++)
 {
 	printf("%i", i);
 }
