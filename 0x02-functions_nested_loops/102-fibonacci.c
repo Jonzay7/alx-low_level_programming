@@ -13,16 +13,16 @@ int main(void)
 
 	for (count = 0; count < 50; count++)
 	{
-			sum = fib1 + fib2;
-			printf("%lu", sum);
+		sum = fib1 + fib2;
+		printf("%lu", sum);
 
-			fib1 = fib2;
-			fib2 = sum;
+		fib1 = fib2;
+		fib2 = sum;
 
-			if (count == 49)
-				printf("\n");
-			else
-				printf(", ");
+		if (count == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
 	return (0);
 }
