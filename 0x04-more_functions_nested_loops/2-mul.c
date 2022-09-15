@@ -1,16 +1,29 @@
 #include "main.h"
 
-/**
- * print_numbers - prints the numbers
- *
- */
-void print_numbers(void)
-{
-        int i;
 
-        for (i = '0'; i <= '9'; i++)
-        {
-                _putchar(i);
-	}
-        _putchar('\n');
+
+/**
+
+ * mul - multiplies two integers
+
+ *
+
+ * @a: first input
+
+ * @b: second input
+
+ *
+
+ * Return: return results
+
+*/
+
+
+
+int mul(int a, int b)
+
+{
+
+	return (a * b);
+
 }
