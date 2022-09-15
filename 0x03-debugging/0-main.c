@@ -1,0 +1,14 @@
+/#include "main.h"
+
+/** main - tests function that prints if integer is positive or negative
+ * Return: set to 0
+ */
+int main(void)
+{
+	int i;
+
+	i = 98 % 14;
+	positive_or_negative(i);
+
+	return (0);
+}
