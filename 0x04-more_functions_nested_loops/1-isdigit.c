@@ -4,26 +4,28 @@
 
 /**
 
- * _isdigit - determine if digit
+ * _isdigit - checks if a character is digit
 
- *
+ * @c: carrier variable
 
- * @c: character to determine
-
- *
-
- * Return: gives boolean
+ * Return: 1 if true, 0 if false
 
  */
+
+
 
 int _isdigit(int c)
 
 {
 
-        if (c >= '0' && c <= '9')
+	if (c >= '0' && c <= '9')
 
-                return (1);
+		return (1);
 
-        return (0);
+
+
+	else
+
+		return (0);
 
 }
