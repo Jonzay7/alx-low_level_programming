@@ -59,8 +59,7 @@ void more_numbers(void);
 void print_line(int n);
 
 /**
- * print_diagonal - prints diagonal
- *
+ * print_diagonal - prints diagonal 
  * @n: integer to see how many stupid lines
  */
 
