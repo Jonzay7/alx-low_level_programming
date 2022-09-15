@@ -2,15 +2,14 @@
 
 /**
  * main - tests function that prints if integer is positive or negative
- * Return: set to 0
+ * Return:  0
  */
 
 int main(void)
 {
-
 	int i;
-	
-	i = 0;
+
+	i = 98 % 7;
 	positive_or_negative(i);
 
 	return (0);
