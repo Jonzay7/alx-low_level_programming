@@ -7,7 +7,7 @@ int main(void)
 {
 	int i;
 
-	i = 98 % 14;
+	i = 98 % 49;
 	positive_or_negative(i);
 
 	return (0);
