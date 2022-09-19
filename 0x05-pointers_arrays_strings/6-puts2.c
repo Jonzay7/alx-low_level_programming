@@ -1,25 +1,20 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * rev_string - prints a string in reverse
- * @s: the used string to beb reversed
- * Return: 0
+ * puts2 - Prints one char out of two of a string.
+ * @str: The string containing characters.
+ *
  */
 
-void rev_string(char *s)
+void puts2(char *str)
 {
-	int len, i, half;
-	char temp;
+		int index = 0, len = 0;
 
-	for (len = 0; s[len] != '\0'; len++)
-	i = 0;
-	half = len / 2;
+			while (str[index++])
+				len++;
 
-	while (half--)
-	{
-		temp = s[len - i - 1];
-		s[len - i - 1] = s[i];
-		s[i] = temp;
-		i++;
-	}
+				for (index = 0; index < len; index += 2)
+					_putchar(str[index]);
+
+				_putchar('\n');
 }
