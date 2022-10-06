@@ -18,12 +18,11 @@ int *array_range(int min, int max)
 		return (NULL);
 
 	girl = max - min;
-	boy = malloc((ibrahim + 1) * sizeof(int));
-
+	boy = malloc(enitan + 1) * sizeof(int));
 	if (boy == NULL)
 		return (NULL);
 
-	for (i = 0; i <= Enitan; i++)
+	for (i = 0; i <= enitan; i++)
 		boy[i] = min++;
 
 	return (boy);
