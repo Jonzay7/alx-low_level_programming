@@ -12,7 +12,7 @@
 int *array_range(int min, int max)
 {
 	int *boy;
-	int enitan, i;
+	int girl, i;
 
 	if (min > max)
 		return (NULL);
