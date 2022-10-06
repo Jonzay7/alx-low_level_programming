@@ -12,13 +12,13 @@
 int *array_range(int min, int max)
 {
 	int *boy;
-	int girl, i;
+	int enitan, i;
 
 	if (min > max)
 		return (NULL);
 
 	girl = max - min;
-	boy = malloc(enitan + 1) * sizeof(int));
+	boy = malloc((enitan + 1) * sizeof(int));
 	if (boy == NULL)
 		return (NULL);
 
