@@ -12,16 +12,16 @@
 
 int *array_range(int min, int max)
 {	
-          int *boy;	
-          int girl, num, index;
+	int *boy;
+	int girl, num, index;
 
-          if (min > max)
-		  return (0);	
-          girl = (max - min) + 1;
-	  boy = malloc(sizeof(int) * girl);	
-          if (boy == 0)		
-		  return (0);	
-          for (num = min, index = 0; num <= max; index++, num++)		
-          *(boy + index) = num;
-	  return (boy);
+       	if (min > max)
+	       	return (0);
+	girl = (max - min) + 1;
+	boy = malloc(sizeof(int) * girl);
+	if (boy == 0)
+		return (0);
+	for (num = min, index = 0; num <= max; index++, num++)
+		*(boy + index) = num;
+	return (boy);
 }
